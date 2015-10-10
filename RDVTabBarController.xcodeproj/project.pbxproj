@@ -441,6 +441,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer: Shilong Lee (9AY5BG5K7A)";
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Example/RDVTabBarController-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Example/RDVTabBarController-Info.plist";
@@ -456,6 +457,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer: Shilong Lee (9AY5BG5K7A)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Shilong Lee (9AY5BG5K7A)";
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Example/RDVTabBarController-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Example/RDVTabBarController-Info.plist";
