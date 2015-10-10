@@ -440,11 +440,13 @@
 		B4616BC917228DF700863892 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Shilong Lee (9AY5BG5K7A)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Example/RDVTabBarController-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Example/RDVTabBarController-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1723bbe7-4fa5-43f5-be5f-9440c256c046";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -452,11 +454,13 @@
 		B4616BCA17228DF700863892 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dalian Focusone Technology Co.,Ltd (R8L8SD43MP)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Example/RDVTabBarController-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Example/RDVTabBarController-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "eeaeb79e-6f28-41a9-bf8f-d3a6165acfac";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
